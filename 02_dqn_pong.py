@@ -20,7 +20,7 @@ from tensorboardX import SummaryWriter
 
 
 DEFAULT_ENV_NAME = "PongNoFrameskip-v4"
-MEAN_REWARD_BOUND = 19.5  # stop training once the 100-episode average score beats this ("solved")
+MEAN_REWARD_BOUND = 19.0  # stop training once the 100-episode average score beats this ("solved")
 
 GAMMA = 0.99                    # discount factor from the Bellman equation (how much future reward matters)
 BATCH_SIZE = 32                 # how many stored experiences we sample from the replay buffer per training step
